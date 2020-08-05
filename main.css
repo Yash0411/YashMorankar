@@ -1,0 +1,170 @@
+.bg-primary {
+    background-color:#1d809f!important;
+}
+#services {
+    font-size: large;
+}
+.text-white{
+    color: white;
+} 
+.text-center{
+    text-align: center;
+}
+.content-section{
+    padding-top: 2.5rem;
+    padding-bottom: 7.5rem;
+}
+.content-section-heading{
+    font-size: xx-large;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 2.7rem;
+}
+strong{
+    color: whitesmoke;
+}
+.service-icon {
+    background-color: #fff;
+    color: #1d809f;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+}
+.title-a{
+    color: white;
+}
+.services-mf{
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  width: 100%;
+  opacity: .9;
+}
+.pt-5, .py-5 {
+  padding-top: 5.5rem!important;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    min-height: 415.2px;
+    width: 350px;
+  }
+  
+  .service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+  
+  .service-box .service-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+  }
+  
+  .service-box .ico-circle {
+    transition: all 500ms ease;
+    font-size: 4rem;
+  }
+  
+  .service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+  }
+  
+  .service-box .s-description {
+    color: #4e4e4e;
+  }
+
+  .service-box .s-button {
+    padding-left: 40%;
+    color: #4e4e4e;
+  }
+  
+  .carousel{
+    min-width:380px
+  }
+  
+  .item{
+    height: 100px;
+    background-color: blue;
+  }
+
+  .about{
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    width: 100%;
+  }
+
+  .to{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: xx-large;
+  }
+  .fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .intern{
+    color: rgb(15, 113, 151);
+    font-weight: 900;
+    font-size: larger;
+  }
+  .intern1{
+    color: black;
+    font-weight: 900;
+    font-size: medium;
+  }
+  .field{
+    color: rgb(190, 27, 27);
+    font-weight: bold;
+    font-size: large;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .about {
+      margin-right: 1.5rem;
+      margin-left: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .about {
+      margin-right: 0.7rem;
+      margin-left: 0.7rem;
+    }
+  }
