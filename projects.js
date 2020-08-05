@@ -3,12 +3,12 @@ var webdev = [
   {
     name:"Event Vault",
     description:"This is an event idea suggestion system for college where students can post their ideas about various events<br/><b>Frontend : Angular 8.3.1<br/>Backend : Firebase No SQL and Authentication</b>",
-    img:"./assets/webdev/Eventvault.png",
+    img:"./assets/webdev/Eventvault.PNG",
   },
   {
     name:"ERP System",
     description:"ERP management system for Poultry based Applications. Consist data and interlinking with various data fields.<br/><b>Frontend : React JS<br/>Backend : Node JS</b>",
-    img:"./assets/webdev/Poultry.png",
+    img:"./assets/webdev/Poultry.PNG",
   },
   {
     name:"Exam System for Schools",
@@ -64,7 +64,7 @@ var ML = [
   {
     name:"Genetic Algo. AI To Play Game",
     description:"AI built for playing a snake like game using GA. Using unsupervised learning, The bot learns to play the game achiving an ability after certain generations.",
-    img:"./assets/ML/capture.PNG",
+    img:"./assets/ML/capture.png",
   },
   {
     name:"Neural Network AI<br> Tic-Tac-Toe",
