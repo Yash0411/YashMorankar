@@ -64,7 +64,7 @@ var ML = [
   {
     name:"Genetic Algo. AI To Play Game",
     description:"AI built for playing a snake like game using GA. Using unsupervised learning, The bot learns to play the game achiving an ability after certain generations.",
-    img:"./assets/ML/capture.PNG",
+    img:"./assets/ML/Capture.PNG",
   },
   {
     name:"Neural Network AI<br> Tic-Tac-Toe",
