@@ -112,7 +112,7 @@ var Projects = [
                 </div>
                 <div class="row">
                     <div class="col-xl-2 margin-left">
-                        ${project.link ? `<a class="nav-link" href="${project.link}">Link</a>`:null}
+                        ${project.link && `<a class="nav-link" href="${project.link}">Link</a>`}
                     </div>
                     <div class="col-xl-9">
                     <div class="card-text text-right">${project.date}</div>
