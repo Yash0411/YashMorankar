@@ -14,6 +14,24 @@ var Projects = [
         link:"https://link.springer.com/chapter/10.1007/978-981-99-6984-5_22"
     },
     {
+        name:"Multi Paxos",
+        tech_stack: "GoLang",
+        date: "Aug 2024 – Dec 2024",
+        points: [
+            "Engineered a <b>distributed banking application</b> using a modified Paxos consensus algorithm, supporting over 10,000 concurrent transactions per second with <b>log-based replication</b> ensuring reliable state machine synchronization.",
+            "Built a <b>highly available key value store</b> and replicated over five nodes to support <b>CRUD</b> operations utilizing the PAXOS as its consensus algorithm enhancing <b>data consistency</b> and <b>fault tolerance</b>, load balancing using <b>sharding</b>."
+        ],
+    },
+    {
+        name:"EdgeScaling",
+        tech_stack: "PyTorch",
+        date: "Aug 2024 – Dec 2024",
+        points: [
+            "Architected a framework to <b>optimize system throughput</b> for parallel live-stream object detection on <b>Edge IoT</b> devices, employing faster models achieving 52% improvement in processing time without sacrificing accuracy.",
+            "Integrated a <b>reinforcement learning</b> agent for decision-making in the background, maintaining effective accuracy while ensuring 95% of requests were processed before deadlines, with accuracy deviations under 10%."
+        ],
+    },
+    {
         name:"Packet Monitoring JumpProxy",
         tech_stack: "GoLang",
         date: "Mar 2024 - Apr 2024",
